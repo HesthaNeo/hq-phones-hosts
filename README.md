@@ -13,7 +13,7 @@
         <p>- D. Button 1</p>
     <p><b>Step 4: Test Dialing By Extension Between Each HQ Phone</b></p>
     <p><b>Step 5: Test Outbound Dialing To The PSTN Test Phone 8885551111</b></p>
-    <p><b>Step 6: Test Inbound Dialing To HQ External Phone Number(s)<em>(Lab Configuration Not Supported)</em></p>
+    <p><b>Step 6: Test Inbound Dialing To HQ External Phone Number(s) <em>(Lab Configuration Not Supported)</em></p>
         <p>- A. Address Exclusions</p>
         <p>- B. DHCP Pool HQ-VOICE</p>
             <p>- i. Network</p>
