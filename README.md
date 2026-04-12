@@ -4,12 +4,14 @@
 <h1><u>Milestone 7: HQ Server, Phones and Hosts</u></h1>
     <p>Sixth phase, we will install Cisco CP-7960 VoIP phones and configure DHCP services for the data network hosts on the data network DHCP server (HQ-Server). In this network we do not have an internal DNS server so we will use external DNS via Google (8.8.8.8).</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
-    <p><b>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</b></p>
-    <p><b>Step 2: Basic Router Configurations (Hostname, NTP, Domain-Name, SSH, Etc)</b></p>
-    <p><b>Step 3: Install uck9 License</b></p>
-    <p><b>Step 4: Configure and Connect HQ LAN Interface G0/0</b></p>
-        <p>- A. MGMT Interface VLAN 100</p>
-        <p>- B. VOICE Interface VLAN 10</p>
+    <p><b>Step 1: Connect One Cisco 7960 VOIP Phone To Each HQ Access Switch</b></p>
+    <p><b>Step 2: Access The HQ Voice Router CLI And View The DHCP Bindings For Each Phone, Obtaining The MAC-Address Of Each Phone</b></p>
+    <p><b>Step 3: On The HQ Voice Router Configure The Three Ephones That Were Just Connected</b></p>
+        <p>- A. Ephone 1, Ephone 2, Ephone 3</p>
+        <p>- B. Mac-Address</p>
+        <p>- C. Phone Type</p>
+        <p>- D. Button 1</p>
+    <p><b>Step 4: Test Dialing By Extension Between Each HQ Phone</b></p>
     <p><b>Step 5: Configure Default Route Pointing Back to HQ Core Voice Network HSRP Address</b></p>
     <p><b>Step 6: Configure HQ Voice Network DHCP Services</b></p>
         <p>- A. Address Exclusions</p>
