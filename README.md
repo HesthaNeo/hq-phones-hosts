@@ -1,7 +1,7 @@
 <p align="center">
-<img width="805" height="255" alt="Screenshot 2026-02-08 192514" src="https://github.com/user-attachments/assets/527a5057-3b75-496b-aca8-b91ccd1d2e04" />
+<img width="552" height="173" alt="Screenshot 2026-04-11 233006" src="https://github.com/user-attachments/assets/5eaa3e81-60d2-461d-99c7-923621ec379e" />
 </p>
-<h1><u>Milestone 6: HQ Voice Router</u></h1>
+<h1><u>Milestone 7: HQ Server, Phones and Hosts</u></h1>
     <p>Fifth phase, we will install 1 CISCO2911/K9 with ipbasek9 and uck9 licensing to act as the local call control for HQ and Branch 2 as well as the HQ PSTN Gateway.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p><b>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</b></p>
