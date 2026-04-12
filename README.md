@@ -13,13 +13,13 @@
         <p>- D. Button 1</p>
     <p><b>Step 4: Test Dialing By Extension Between Each HQ Phone</b></p>
     <p><b>Step 5: Test Outbound Dialing To The PSTN Test Phone 8885551111</b></p>
-    <p><b>Step 6: Test Inbound Dialing To HQ External Phone Number(s) <em>(Lab Configuration Not Supported)</em></p>
+    <p><b>Step 6: Test Inbound Dialing To HQ External Phone Number(s) <em>(Lab Configuration Not Supported)</em></b></p>
         <p>- A. Address Exclusions</p>
         <p>- B. DHCP Pool HQ-VOICE</p>
             <p>- i. Network</p>
             <p>- ii. Default-Router</p>
             <p>- iii. Option 150 IP</p>
-    <p><b>Step 7: Configure Telephony-Service</b></p>
+    <p><b>Step 7: On the HQ Server access the DHCP services and configure DHCP for the Data Network</b></p>
         <p>- A. Max-Ephones</p> 
         <p>- B. Max-Dn</p>
         <p>- C. IP Source-Address</p>
