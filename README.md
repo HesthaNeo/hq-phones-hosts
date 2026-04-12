@@ -23,22 +23,7 @@
     <p><b>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</b></p>
     <p><b>Step 9: Test Each Host By Pinging Around The HQ Network From Each Host And Between Each Host</b></p>
     <p><b>Step 10: Test IP Connectivity To The Internet By Pinging Google Server 8.8.8.8</b></p>
-        <p>- A. IP Address</p>
-        <p>- B. Disable CDP</p>
-        <p>- C. Apply PSTN Access-List Inbound</p>
-    <p><b>Step 11: Configure Internal Dial-Peers</b></p>
-        <p>- A. Branch 1 extensions (2…$)</p>
-    <p><b>Step 12: Configure Outbound Dial-Peers</b></p>
-        <p>- A. 10-Digit Long Distance and Toll-Free</p>
-        <p>- B. 7-Digit Local</p>
-        <p>- C. International</p>
-        <p>- D. 411 & 911</p>
-    <p><b>Step 13: Configure Outbound Translation Rules</b> <em>(Lab Configuration Not Supported)</em></p>
-    <p><b>Step 14: Configure Inbound Dial-Peers</b> <em>(Lab Configuration Not Supported)</em></p>
-    <p><b>Step 15: Configure Inbound Voice Translation Rules</b> <em>(Lab Configuration Not Supported)</em></p>
-    <p><b>Step 16: Configure Voice Service VOIP</b> <em>(Lab Configuration Not Supported)</em></p>
-    <p><b>Step 17: Configure Session Initiation Protocol (SIP)</b> <em>(Lab Configuration Not Supported)</em></p>
-    <p><b>Step 18: Configure DSP Services</b> <em>(Lab Configuration Not Supported)</em></p>
+    <p><b>Step 11: Test DNS And Website Connectivity By Using The Web Browser On Each Host To Access Www.Google.Com</b></p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Rack, Mount, and Power On The Cisco 2911 Router</h3>
             <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2911 Router in the right side area of HQ and label it as “HQ-VOICE-RTR”.</p>
