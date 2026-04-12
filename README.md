@@ -20,8 +20,7 @@
         <p>- C. Starting IP Address</p>
         <p>- D. Subnet Mask</p>
         <p>- E. Number Of DHCP Users</p>
-    <p><b>Step 8: Configure HQ and Branch 2 Ephone-DNS</b></p>
-        <p>- A. x1001, x1002, x1003, x3001, x3002</p>
+    <p><b>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</b></p>
     <p><b>Step 9: Configure PSTN Access-List</b></p>
     <p><b>Step 10: Configure PSTN Voice Interface G0/1</b></p>
         <p>- A. IP Address</p>
