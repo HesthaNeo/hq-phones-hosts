@@ -21,8 +21,8 @@
         <p>- D. Subnet Mask</p>
         <p>- E. Number Of DHCP Users</p>
     <p><b>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</b></p>
-    <p><b>Step 9: Configure PSTN Access-List</b></p>
-    <p><b>Step 10: Configure PSTN Voice Interface G0/1</b></p>
+    <p><b>Step 9: Test Each Host By Pinging Around The HQ Network From Each Host And Between Each Host</b></p>
+    <p><b>Step 10: Test IP Connectivity To The Internet By Pinging Google Server 8.8.8.8</b></p>
         <p>- A. IP Address</p>
         <p>- B. Disable CDP</p>
         <p>- C. Apply PSTN Access-List Inbound</p>
