@@ -62,24 +62,6 @@
                 <img width="869" height="1476" alt="Screenshot 2026-04-14 172708" src="https://github.com/user-attachments/assets/f7861111-5a2e-4399-81a9-457446234141" />
                 <img width="872" height="1128" alt="Screenshot 2026-04-14 172819" src="https://github.com/user-attachments/assets/7def71d4-c2a7-4910-b01e-c2069c0cfd3d" />
             <p><em>- Successful.</em></p>
-
-
-
-
-            
-                <img width="869" height="477" alt="Screenshot 2026-04-11 213814" src="https://github.com/user-attachments/assets/9152f6d6-1bc4-429e-95e8-f437acdc468a" />
-                <p>- B: Next, we'll connect a single phone and test ephone registration. We'll add a 7960 IP phone to the network and place the phone near the HQ-CORE-SW1 switch and change the label to “x1001”. Using a straight-through cable, we'll connect the IP Phone to HQ-CORE-SW1 by connecting the port on the phone labeled as “switch” to any available access port on HQ-CORE-SW1.</p>
-                <img width="981" height="1140" alt="Screenshot 2026-04-11 221044" src="https://github.com/user-attachments/assets/96ef8c4a-dcc3-494e-8184-c405d3fdf530" />
-                <p>- C: Next, we'll return to the HQ-VOICE-RTR CLI and check that the phone has pulled a DHCP address from the DHCP pool that was recently configured.</p>
-                <img width="872" height="256" alt="Screenshot 2026-04-11 221435" src="https://github.com/user-attachments/assets/383dfcc6-4755-4f94-827b-161df9bb5629" />
-                <p>- D: From the HQ-VOICE-RTR CLI we'll view the ephone and check the running configuration.</p>
-                <img width="868" height="353" alt="Screenshot 2026-04-11 221649" src="https://github.com/user-attachments/assets/4a7c5fac-5eab-40fa-a001-efcf12e373fb" />
-                <p><em>- We notice the phone is showing up as UNREGISTERED.</em></p>
-                <img width="873" height="561" alt="Screenshot 2026-04-11 221912" src="https://github.com/user-attachments/assets/b0cd518a-2252-46cd-922a-322534a19773" />
-                <p><em>- We check the running config. We notice a new ephone configuration (ephone 1) was automatically added to the running-config. The MAC address of this ephone also matches the MAC address that was noted in the DHCP binding table.</em></p>
-                <p>- E: Next, we'll add a phone type and button assignment to the new ephone.</p>
-                <img width="868" height="417" alt="Screenshot 2026-04-11 222354" src="https://github.com/user-attachments/assets/e9a650f9-d9f2-44e7-91e2-bb33b5c412bb" />
-                <p><em>- "type 7960" configures this ephone as a 7960 model. "button 1:1" assigns ephone-dn 1 to the first button on the phone. We also notice the phone has now registered properly with extension "1001".</em></p>
         <h3>Step 9: Test Each Host By Pinging Around The HQ Network From Each Host And Between Each Host</h3>
             <p>- For this step, we will configure the connection to the PSTN Provider for external phone service. We'll create an Access Control List that only allows necessary traffic from the PSTN provider. We will use this ACL to restrict traffic on the public connection to the PSTN.</p>
                 <img width="871" height="419" alt="Screenshot 2026-04-11 223836" src="https://github.com/user-attachments/assets/c89622ab-1fa6-4ed7-9e55-bb34a51f36d5" />
