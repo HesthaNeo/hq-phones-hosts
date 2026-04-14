@@ -51,6 +51,10 @@
                 <img width="872" height="881" alt="Screenshot 2026-04-14 171054" src="https://github.com/user-attachments/assets/c3d6c242-0866-416e-b7cd-2deb4e3faa20" />
                 <img width="872" height="902" alt="Screenshot 2026-04-14 171244" src="https://github.com/user-attachments/assets/1d39b398-1ecf-4154-89d5-b095898d8851" />
             <p><em>- We are able to successfully ping our default gateway and google dns server.</em></p>
+                <p>- B: Now we'll configure network timing protocol.</p>
+                <img width="868" height="898" alt="Screenshot 2026-04-14 171634" src="https://github.com/user-attachments/assets/7895884b-6be2-455b-bd42-4049c70906f0" />
+                <p>- C: Lastly, we'll configure DHCP service for the data network.</p>
+
 
 
 
