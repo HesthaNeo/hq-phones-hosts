@@ -27,14 +27,13 @@
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Connect One Cisco 7960 VOIP Phone To Each HQ Access Switch</h3>
             <p>- First, we'll connect and configure two more phones. We'll add two 7960 IP phones to the network in the HQ network topology. We'll place one phone under HQ-ASW2 and label it "x1002" and the other phone directly under HQ-ASW3 and label it "x1003".</p>
-                <img width="1172" height="979" alt="Screenshot 2026-02-08 195053" src="https://github.com/user-attachments/assets/60fc79b1-688f-4e28-8d4b-82e961a5c43a" />
+                <img width="1440" height="884" alt="Screenshot 2026-04-14 164727" src="https://github.com/user-attachments/assets/376fa77e-2f3a-4c50-8a89-53071c3402db" />
         <h3>Step 2: Access The HQ Voice Router CLI And View The DHCP Bindings For Each Phone, Obtaining The MAC-Address Of Each Phone</h3>
-            <p>- In this step, we did basic configuration for the router including changing the hostname, setting the time zone, enabling SSH, setting domain name, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices.</p>
-                <img width="868" height="985" alt="Screenshot 2026-02-08 195304" src="https://github.com/user-attachments/assets/758d7f29-d757-4e76-8cbd-d2838b825bb7" />
+            <p>- Next, we'll access the HQ-VOICE-RTR CLI and configure the two new ephones.</p>
+                <img width="872" height="881" alt="Screenshot 2026-04-14 165250" src="https://github.com/user-attachments/assets/46cac24e-109f-44b7-bb7f-febc5e03ec58" />
         <h3>Step 3: On The HQ Voice Router Configure The Three Ephones That Were Just Connected</h3>
-            <p>- Next we will activate the Unified Communications Licensing 60 day grace period on the 2911 Router. We do this to unlock voice and telephony features. Without it, the router cannot perform functions like VoIP, call routing (dial-peers), or utilizing voice modules (PVDMs).</p>
-                <img width="873" height="936" alt="Screenshot 2026-02-08 200133" src="https://github.com/user-attachments/assets/4124dce9-7697-4e44-a347-c0c953cdc82a" />
-                <img width="866" height="1161" alt="Screenshot 2026-02-08 200330" src="https://github.com/user-attachments/assets/e79e1e45-dec1-4183-a1c9-4b901cd241a7" />
+            <p>- Next, we'll access the HQ-VOICE-RTR CLI and configure the two new ephones.</p>
+                <img width="872" height="881" alt="Screenshot 2026-04-14 165250" src="https://github.com/user-attachments/assets/46cac24e-109f-44b7-bb7f-febc5e03ec58" />
             <p><em>- After reloading the router, you can see that the uck9 licensing software was installed successfully.</em></p>
         <h3>Step 4: Test Dialing By Extension Between Each HQ Phone</h3>
             <p>- Next we will configure and connect the LAN facing interface G0/0.</p>
