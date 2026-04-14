@@ -57,6 +57,7 @@
                 <img width="1351" height="903" alt="Screenshot 2026-04-14 171917" src="https://github.com/user-attachments/assets/cc034cfb-3427-44de-8e10-a9d274479cb4" /> 
         <h3>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</h3>
                 <p>- Next, we'll add 3 DHCP Hosts to the topology and confirm they pull addresses and have network access.</p>
+                <img width="518" height="897" alt="Screenshot 2026-04-14 172927" src="https://github.com/user-attachments/assets/60d9eeab-d2f1-4e64-b2e1-0018a30d0c52" />
                 <img width="869" height="1472" alt="Screenshot 2026-04-14 172537" src="https://github.com/user-attachments/assets/62400697-7f6e-4499-9813-54cc6fb2faf6" />
                 <img width="869" height="1476" alt="Screenshot 2026-04-14 172708" src="https://github.com/user-attachments/assets/f7861111-5a2e-4399-81a9-457446234141" />
                 <img width="872" height="1128" alt="Screenshot 2026-04-14 172819" src="https://github.com/user-attachments/assets/7def71d4-c2a7-4910-b01e-c2069c0cfd3d" />
