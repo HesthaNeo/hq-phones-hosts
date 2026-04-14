@@ -44,8 +44,8 @@
             <p><em>- Successful.</em></p>
         <h3>Step 6: Test Inbound Dialing To HQ External Phone Number(s) <em>(Lab Configuration Not Supported)</h3>
         <h3>Step 7: On The HQ Server Access The DHCP Services And Configure DHCP For The Data Network</h3>
-            <p>- Next, we will configure Call Manager Express, Skinny Call Control Protocol (SCCP) & directory numbers for HQ.</p>
-                <p>- A: We'll start by configuring  telephony-service.</p>
+            <p>- Next, we will add a server to the topology and configure NTP and DHCP services.</p>
+                <p>- A: We'll start by adding the HQ-Server and testing network connectivity.</p>
                 <img width="870" height="337" alt="Screenshot 2026-04-11 212840" src="https://github.com/user-attachments/assets/28bf12b5-7a42-4e5b-afa1-684474c0849a" />
             <p><em>- We use the command "max-ephones 42" to configure the maximum number of supported phones. "max-dn 144" Configures the maximum number of directory numbers. "ip source-address 10.10.10.10 port 2000" configures the SSCP gateway. "create cnf-files" generates the XML files used by the phones for booting. </em></p>
         <h3>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</h3>
