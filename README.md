@@ -56,7 +56,7 @@
                 <p>- C: Lastly, we'll configure DHCP service for the data network.</p>
                 <img width="1351" height="903" alt="Screenshot 2026-04-14 171917" src="https://github.com/user-attachments/assets/cc034cfb-3427-44de-8e10-a9d274479cb4" /> 
         <h3>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</h3>
-                <p>- A: Next, we'll configure the HQ directory numbers x1001, x1002, x1003.</p>
+                <p>- Next, we'll add 3 DHCP Hosts to the topology and confirm they pull addresses and have network access.</p>
                 <img width="869" height="477" alt="Screenshot 2026-04-11 213814" src="https://github.com/user-attachments/assets/9152f6d6-1bc4-429e-95e8-f437acdc468a" />
                 <p>- B: Next, we'll connect a single phone and test ephone registration. We'll add a 7960 IP phone to the network and place the phone near the HQ-CORE-SW1 switch and change the label to “x1001”. Using a straight-through cable, we'll connect the IP Phone to HQ-CORE-SW1 by connecting the port on the phone labeled as “switch” to any available access port on HQ-CORE-SW1.</p>
                 <img width="981" height="1140" alt="Screenshot 2026-04-11 221044" src="https://github.com/user-attachments/assets/96ef8c4a-dcc3-494e-8184-c405d3fdf530" />
