@@ -54,6 +54,8 @@
                 <p>- B: Now we'll configure network timing protocol.</p>
                 <img width="868" height="898" alt="Screenshot 2026-04-14 171634" src="https://github.com/user-attachments/assets/7895884b-6be2-455b-bd42-4049c70906f0" />
                 <p>- C: Lastly, we'll configure DHCP service for the data network.</p>
+                <img width="1351" height="903" alt="Screenshot 2026-04-14 171917" src="https://github.com/user-attachments/assets/cc034cfb-3427-44de-8e10-a9d274479cb4" />
+
 
 
 
