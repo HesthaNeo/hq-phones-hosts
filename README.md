@@ -35,8 +35,11 @@
                 <img width="872" height="881" alt="Screenshot 2026-04-14 165250" src="https://github.com/user-attachments/assets/46cac24e-109f-44b7-bb7f-febc5e03ec58" />
             <p><em>- After reloading the router, you can see that the uck9 licensing software was installed successfully.</em></p>
         <h3>Step 4: Test Dialing By Extension Between Each HQ Phone</h3>
-            <p>- Next we will configure and connect the LAN facing interface G0/0.</p>
-                <img width="874" height="652" alt="Screenshot 2026-02-08 200739" src="https://github.com/user-attachments/assets/4023ef4a-9f89-4969-8668-c6d1bdf2c60f" />
+            <p>- Next we will place calls between each phone by dialing the extensions from each phone.</p>
+                <img width="1748" height="880" alt="Screenshot 2026-04-14 170113" src="https://github.com/user-attachments/assets/33df0337-9cc1-4668-be6a-786c0ab90553" />
+                <img width="1739" height="881" alt="Screenshot 2026-04-14 170223" src="https://github.com/user-attachments/assets/f729314f-ac38-45f6-8c33-69096d9c8944" />
+
+
             <p><em>- Both MGMT and VOICE VLAN interfaces were configured here as well.</em></p>
             <p>- Next, using a straight-through cable connect the LAN interface G0/0 to a trunk port on HQ-CORE-SW2 (i.e. FastEthernet0/21) and verify the port comes online.</p>
                 <img width="1181" height="993" alt="Screenshot 2026-02-08 201116" src="https://github.com/user-attachments/assets/5e6e210a-74fb-42b4-bd23-1749358977ce" />
