@@ -49,7 +49,9 @@
                 <img width="942" height="762" alt="Screenshot 2026-04-14 170840" src="https://github.com/user-attachments/assets/a3543f89-f961-49a6-93ce-bd69eaad2282" />
                 <img width="871" height="883" alt="Screenshot 2026-04-14 170958" src="https://github.com/user-attachments/assets/9f2c376e-0385-4f92-9be6-393e50b17cff" />
                 <img width="872" height="881" alt="Screenshot 2026-04-14 171054" src="https://github.com/user-attachments/assets/c3d6c242-0866-416e-b7cd-2deb4e3faa20" />
-                
+                <img width="872" height="902" alt="Screenshot 2026-04-14 171244" src="https://github.com/user-attachments/assets/1d39b398-1ecf-4154-89d5-b095898d8851" />
+            <p><em>- We are able to successfully ping our default gateway and google dns server.</em></p>
+
 
 
                 <img width="870" height="337" alt="Screenshot 2026-04-11 212840" src="https://github.com/user-attachments/assets/28bf12b5-7a42-4e5b-afa1-684474c0849a" />
