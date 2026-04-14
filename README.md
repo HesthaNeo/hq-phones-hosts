@@ -63,9 +63,9 @@
                 <img width="872" height="1128" alt="Screenshot 2026-04-14 172819" src="https://github.com/user-attachments/assets/7def71d4-c2a7-4910-b01e-c2069c0cfd3d" />
             <p><em>- Successful.</em></p>
         <h3>Step 9: Test Each Host By Pinging Around The HQ Network From Each Host And Between Each Host</h3>
-            <p>- For this step, we will configure the connection to the PSTN Provider for external phone service. We'll create an Access Control List that only allows necessary traffic from the PSTN provider. We will use this ACL to restrict traffic on the public connection to the PSTN.</p>
-                <img width="871" height="419" alt="Screenshot 2026-04-11 223836" src="https://github.com/user-attachments/assets/c89622ab-1fa6-4ed7-9e55-bb34a51f36d5" />
-                <p><em>- *The following access-list will allow Session Initiation Protocol, Real-time Transport Protocol and ICMP from the PSTN Provider. In addition, we have ports open that are not normally used with PSTN connections to allow the phone calls within Packet Tracer. This is because the Packet Tracer lab uses H323 signaling and ephemeral port range TCP 1024-4999. This ephemeral port range is not normally used for calls to/from the PSTN, but we will need them open for our lab to function.</em></p>
+                <img width="870" height="342" alt="Screenshot 2026-04-14 173542" src="https://github.com/user-attachments/assets/12edeccd-33e6-4a84-9530-a5d388bdd05d" />
+                <img width="872" height="338" alt="Screenshot 2026-04-14 173628" src="https://github.com/user-attachments/assets/dc404566-cde9-4759-8438-57a289678ab5" />
+                <img width="871" height="346" alt="Screenshot 2026-04-14 173700" src="https://github.com/user-attachments/assets/2cdc4c1d-db2e-43ba-be29-3907caece447" />
         <h3>Step 10: Test IP Connectivity To The Internet By Pinging Google Server 8.8.8.8</h3>
             <p>- Next, we'll configure and connect the Public PSTN connection by configuring the IP address, disabling CDP, and applying the PSTN access-list inbound we just created.</p>
                 <img width="872" height="384" alt="Screenshot 2026-04-11 224539" src="https://github.com/user-attachments/assets/cccd3912-2265-468c-af8d-042a690adb80" />
