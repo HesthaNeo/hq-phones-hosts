@@ -26,7 +26,7 @@
     <p><b>Step 11: Test DNS And Website Connectivity By Using The Web Browser On Each Host To Access Www.Google.Com</b></p>
     <h2><strong><u>Implementation</u></strong></h2>
         <h3>Step 1: Connect One Cisco 7960 VOIP Phone To Each HQ Access Switch</h3>
-            <p>- First, we'll Add a 2901 Router to the topology by dragging and dropping it into the Headquarters section of the lab. We'll place the 2911 Router in the right side area of HQ and label it as “HQ-VOICE-RTR”.</p>
+            <p>- First, we'll connect and configure two more phones. We'll add two 7960 IP phones to the network in the HQ network topology. We'll place one phone under HQ-ASW2 and label it "x1002" and the other phone directly under HQ-ASW3 and label it "x1003".</p>
                 <img width="1172" height="979" alt="Screenshot 2026-02-08 195053" src="https://github.com/user-attachments/assets/60fc79b1-688f-4e28-8d4b-82e961a5c43a" />
         <h3>Step 2: Access The HQ Voice Router CLI And View The DHCP Bindings For Each Phone, Obtaining The MAC-Address Of Each Phone</h3>
             <p>- In this step, we did basic configuration for the router including changing the hostname, setting the time zone, enabling SSH, setting domain name, adding securiting to console and vty lines for SSH, and creating user profiles with a password the devices.</p>
