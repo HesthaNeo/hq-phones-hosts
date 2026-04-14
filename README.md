@@ -70,8 +70,13 @@
         <h3>Step 10: Test IP Connectivity To The Internet By Pinging Google Server 8.8.8.8</h3>
             <p><em>- Successful. (See Step 8)</em></p>
         <h3>Step 11: Test DNS And Website Connectivity By Using The Web Browser On Each Host To Access Www.Google.Com</h3>
-            <p>- For this step, we will configure dial-peer for dialing to future Branch 1 extensions (Internal).</p>
-                <img width="870" height="278" alt="Screenshot 2026-04-11 225633" src="https://github.com/user-attachments/assets/7eaf20fd-f9d1-4e8f-8f54-255fbdfce944" />
+                <img width="540" height="548" alt="Screenshot 2026-04-14 173901" src="https://github.com/user-attachments/assets/df7de72c-5af4-4fc3-afa2-dbd10b001b4d" />
+                <img width="526" height="650" alt="Screenshot 2026-04-14 173943" src="https://github.com/user-attachments/assets/6496d9e0-e8eb-44c2-9c34-147ce170856a" />
+                <img width="487" height="660" alt="Screenshot 2026-04-14 174020" src="https://github.com/user-attachments/assets/5916bf89-8480-42e8-8990-8cf437cb89ad" />
+
+
+                
+
                 
                 
 
