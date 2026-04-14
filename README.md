@@ -46,6 +46,12 @@
         <h3>Step 7: On The HQ Server Access The DHCP Services And Configure DHCP For The Data Network</h3>
             <p>- Next, we will add a server to the topology and configure NTP and DHCP services.</p>
                 <p>- A: We'll start by adding the HQ-Server and testing network connectivity.</p>
+                <img width="942" height="762" alt="Screenshot 2026-04-14 170840" src="https://github.com/user-attachments/assets/a3543f89-f961-49a6-93ce-bd69eaad2282" />
+                <img width="871" height="883" alt="Screenshot 2026-04-14 170958" src="https://github.com/user-attachments/assets/9f2c376e-0385-4f92-9be6-393e50b17cff" />
+                <img width="872" height="881" alt="Screenshot 2026-04-14 171054" src="https://github.com/user-attachments/assets/c3d6c242-0866-416e-b7cd-2deb4e3faa20" />
+                
+
+
                 <img width="870" height="337" alt="Screenshot 2026-04-11 212840" src="https://github.com/user-attachments/assets/28bf12b5-7a42-4e5b-afa1-684474c0849a" />
             <p><em>- We use the command "max-ephones 42" to configure the maximum number of supported phones. "max-dn 144" Configures the maximum number of directory numbers. "ip source-address 10.10.10.10 port 2000" configures the SSCP gateway. "create cnf-files" generates the XML files used by the phones for booting. </em></p>
         <h3>Step 8: Connect A Host Directly To Each Of The Three Cisco 7960 VoIP Phones That Were Just Connected To The Network</h3>
