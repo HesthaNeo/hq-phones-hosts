@@ -2,7 +2,7 @@
 <img width="552" height="173" alt="Screenshot 2026-04-11 233006" src="https://github.com/user-attachments/assets/5eaa3e81-60d2-461d-99c7-923621ec379e" />
 </p>
 <h1><u>Milestone 7: HQ Server, Phones and Hosts</u></h1>
-    <p>Sixth phase, we will install Cisco CP-7960 VoIP phones and configure DHCP services for the data network hosts on the data network DHCP server (HQ-Server). In this network we do not have an internal DNS server so we will use external DNS via Google (8.8.8.8).</p>
+    <p>Sixth phase, we will install Cisco CP-7960 VoIP phones and configure DHCP services for the data network hosts on the data network DHCP server (HQ-Server). In this network we do not have an internal DNS server so we will use external DNS via Google (8.8.8.8). The remaining two phones will be installed along with 3 hosts that will pull their IP addresses dynamically from the HQ-Server. So, the first task will be to get the HQ-Server up and running. The HQ Server will be responsible for serving DHCP addresses to the Data network and Guest network, but for now only the Data network DHCP scope will be configured. In addition to DHCP services the server will provide network timing protocol (NTP) service for any network devices configured to pull time from it. Once the Phones are installed we will also implement Quality Service for voice traffic on the HQ-WAN-Router in preparation for our branches to be added to the topology.</p>
     <h2><strong><u>Configuration Steps</u></strong></h2>
     <p><b>Step 1: Connect One Cisco 7960 VOIP Phone To Each HQ Access Switch</b></p>
     <p><b>Step 2: Access The HQ Voice Router CLI And View The DHCP Bindings For Each Phone, Obtaining The MAC-Address Of Each Phone</b></p>
