@@ -66,13 +66,9 @@
                 <img width="870" height="342" alt="Screenshot 2026-04-14 173542" src="https://github.com/user-attachments/assets/12edeccd-33e6-4a84-9530-a5d388bdd05d" />
                 <img width="872" height="338" alt="Screenshot 2026-04-14 173628" src="https://github.com/user-attachments/assets/dc404566-cde9-4759-8438-57a289678ab5" />
                 <img width="871" height="346" alt="Screenshot 2026-04-14 173700" src="https://github.com/user-attachments/assets/2cdc4c1d-db2e-43ba-be29-3907caece447" />
+            <p><em>- Successful.</em></p>
         <h3>Step 10: Test IP Connectivity To The Internet By Pinging Google Server 8.8.8.8</h3>
-            <p>- Next, we'll configure and connect the Public PSTN connection by configuring the IP address, disabling CDP, and applying the PSTN access-list inbound we just created.</p>
-                <img width="872" height="384" alt="Screenshot 2026-04-11 224539" src="https://github.com/user-attachments/assets/cccd3912-2265-468c-af8d-042a690adb80" />
-                <p>- A: Using an Ethernet Cross-Over cable, we'll connect the HQ-VOICE-RTR Private WAN interface G0/1 to the PSTN CLOUD router interface G0/0.</p>
-                <img width="1491" height="1141" alt="Screenshot 2026-04-11 224745" src="https://github.com/user-attachments/assets/388af1cf-6bfc-4be7-883a-70e1e1fcf322" />
-                <img width="871" height="388" alt="Screenshot 2026-04-11 225219" src="https://github.com/user-attachments/assets/75fc0ab5-fd88-4aa1-bb2a-b450375d5948" />
-                <p><em>- Connection was successful to the provider router.</em></p>
+            <p><em>- Successful. (See Step 8)</em></p>
         <h3>Step 11: Test DNS And Website Connectivity By Using The Web Browser On Each Host To Access Www.Google.Com</h3>
             <p>- For this step, we will configure dial-peer for dialing to future Branch 1 extensions (Internal).</p>
                 <img width="870" height="278" alt="Screenshot 2026-04-11 225633" src="https://github.com/user-attachments/assets/7eaf20fd-f9d1-4e8f-8f54-255fbdfce944" />
