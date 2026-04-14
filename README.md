@@ -43,12 +43,6 @@
                 <img width="1750" height="879" alt="Screenshot 2026-04-14 170432" src="https://github.com/user-attachments/assets/8eee39c7-1495-4d7f-b29d-6378ab25e786" />
             <p><em>- Successful.</em></p>
         <h3>Step 6: Test Inbound Dialing To HQ External Phone Number(s) <em>(Lab Configuration Not Supported)</h3>
-            <p>- Next, we will configure DHCP for the voice network.</p>
-                <p>- A: We'll start with configuring the DHCP pool including option 150 for phone TFTP Server.</p>
-                <img width="867" height="286" alt="Screenshot 2026-04-11 210550" src="https://github.com/user-attachments/assets/8a869be4-94a3-4fdc-ba7d-a08a044f2b98" />
-            <p><em>- The command option 150 ip 10.10.10.10 will configure a the Cisco DHCP server to provide Cisco IP phones with the IP address of the TFTP server 10.10.10.10. This will allow the phones to download necessary configuration files and firmware. Also worth noting, no DNS Server is required to be handed out to the phones in this network.</em></p>
-                <p>- B: Finally, we will configure the DHCP exclusion ranges.</p>
-                <img width="873" height="241" alt="Screenshot 2026-04-11 211657" src="https://github.com/user-attachments/assets/0fc18167-dcce-4623-b17d-1976dd88c167" />
         <h3>Step 7: On The HQ Server Access The DHCP Services And Configure DHCP For The Data Network</h3>
             <p>- Next, we will configure Call Manager Express, Skinny Call Control Protocol (SCCP) & directory numbers for HQ.</p>
                 <p>- A: We'll start by configuring  telephony-service.</p>
